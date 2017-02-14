@@ -6,4 +6,4 @@ function noteListTest() {
   assert.isTrue(noteList.getNotes()[0].getText() === "test1");
 }
 
-noteAcceptsText("Hello");
+noteListTest();

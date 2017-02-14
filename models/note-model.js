@@ -1,11 +1,9 @@
 "use strict";
 
 var Note = (function () {
-
   var text;
 
   return {
-
     getText: function () {
       return text;
     },
@@ -14,5 +12,4 @@ var Note = (function () {
       text = message;
     }
   };
-
 });

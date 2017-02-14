@@ -1,11 +1,9 @@
-"use strict.";
+"use strict";
 
 var NoteList = (function () {
-
   var noteMessages = [];
 
   return {
-
     addNote: function (text) {
       var note = Note();
       note.setText(text);
@@ -16,5 +14,4 @@ var NoteList = (function () {
       return noteMessages;
     }
   };
-
 });
