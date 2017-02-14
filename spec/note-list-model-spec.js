@@ -1,5 +1,3 @@
-
-
 function noteListTest() {
   var noteList = NoteList();
   noteList.addNote("test1");
