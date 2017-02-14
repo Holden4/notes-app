@@ -13,9 +13,9 @@ function noteListTest() {
 function noteListViewTest() {
   var noteListView = NoteListView();
   var noteList = NoteList();
-  noteList.addNote("test1");
-  noteList.addNote("test2");
-  var str = "<ul><li>test1</li><li>test2</li></ul>";
+  noteList.addNote("A-34567890123456789012");
+  noteList.addNote("B-34567890123456789012");
+  var str = "<ul><li>A-345678901234567890</li><li>B-345678901234567890</li></ul>";
   assert.isTrue(noteListView.printNotes(noteList.getNotes()) === str);
 }
 
